@@ -1,0 +1,16 @@
+target/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar.sha1
+.mvn/wrapper/MavenWrapperDownloader.java
+.mvn/wrapper/MavenWrapperDownloader.java.sha1
+.DS_Store
+/.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/maven-wrapper.jar.sha1
+.vscode/
+*.log
+!.mvn/wrapper/maven-wrapper.properties

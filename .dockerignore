@@ -1,0 +1,12 @@
+.git
+target
+.idea
+.vscode
+*.iml
+*.log
+node_modules
+tmp
+docker-compose.yml
+.mvn/wrapper/maven-wrapper.jar
+jdk-21.0.3+9
+temurin.tar.gz

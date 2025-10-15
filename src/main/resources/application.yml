@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: projeto-agente
+  datasource:
+    url: jdbc:mysql://localhost:3306/projeto_agente?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  devtools:
+    restart:
+      enabled: true
+  output:
+    ansi:
+      enabled: always
+
+server:
+  port: 8080
